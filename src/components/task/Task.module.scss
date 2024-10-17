@@ -1,0 +1,26 @@
+.task {
+    display: flex;
+    align-items: center;
+    color: #b3b3b3;
+    background-color: rgba(0, 0, 0, 0);
+    border: 0;
+    padding: 20px;
+    gap: 15px;
+    cursor: pointer;
+
+    >p {
+        color: black;
+    }
+
+    >img {
+        border: 0.1rem solid;
+        border-color: #b3b3b3;
+        border-radius: 90%;
+    }
+}
+
+.task:hover {
+    -webkit-box-shadow: 0px 0px 42px -1px rgba(0, 0, 0, 0.05) inset;
+    -moz-box-shadow: 0px 0px 42px -1px rgba(0, 0, 0, 0.05) inset;
+    box-shadow: 0px 0px 42px -1px rgba(0, 0, 0, 0.05) inset;
+}
